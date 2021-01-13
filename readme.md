@@ -20,8 +20,8 @@ const Emojik = require('emojik');
 // From path
 console.log(Emojik.goblin.icon());
 
-// Or from get() function
-console.log(Emojik.get('goblin'));
+// Or from icon() function
+console.log(Emojik.icon('goblin'));
 
 // result: 👺
 ```
@@ -34,8 +34,8 @@ import Emojik from 'emojik';
 // From path
 console.log(Emojik.goblin.icon());
 
-// Or from get() function
-console.log(Emojik.get('goblin'));
+// Or from icon() function
+console.log(Emojik.icon('goblin'));
 
 // result: 👺
 ```
@@ -46,26 +46,26 @@ console.log(Emojik.get('goblin'));
 // From path
 console.log(Emojik.ok_hand.icon('light'));
 
-// Or from get() function
-console.log(Emojik.get('ok hand', 'light'));
+// Or from icon() function
+console.log(Emojik.icon('ok hand', 'light'));
 
 // result: 👌🏻
 ```
 #### Available colors
 `{ "light", "medium-light", "medium", "medium-dark", "dark" }`
 
-### What happens, if I paste to get() function don't correct name?
+### What happens, if I paste to icon() function don't correct name?
 ```javascript
 // You can paste names as you wish
 
 // So
-console.log(Emojik.get('flexed biceps'));
+console.log(Emojik.icon('flexed biceps'));
 
 // Or so..
-console.log(Emojik.get('FLEXED_BICEPS'));
+console.log(Emojik.icon('FLEXED_BICEPS'));
 
 // Or so....
-console.log(Emojik.get(':::::::flexed+biceps::::::::'));
+console.log(Emojik.icon(':::::::flexed+biceps::::::::'));
 
 // result will be the same
 // 💪
