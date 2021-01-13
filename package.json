@@ -1,0 +1,43 @@
+{
+  "name": "emojik",
+  "version": "1.0.0",
+  "description": "Emoji pack to JavaScript",
+  "main": "lib/emojik.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "npm run build && npm run test",
+    "build": "node src",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/makstashkevich/emojik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makstashkevich/emojik/issues"
+  },
+  "homepage": "https://github.com/makstashkevich/emojik#readmy",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "emoji", "smile", "javascript", "pack", "unicode", "utf8", "entries", "list"
+  ],
+  "author": "MakStashkevich",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "axios": "^0.21.1",
+    "npm": "^6.14.11",
+    "npm-check-updates": "^10.2.5",
+    "strutil": "^0.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}
