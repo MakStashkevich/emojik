@@ -7,7 +7,7 @@ I hope, this help you too.
 ## Installation
 
 ```npm
-$ npm install emoji
+$ npm install emojik
 ```
 
 ## Example
@@ -15,13 +15,13 @@ $ npm install emoji
 ### ES5
 ```javascript
 // Import module
-const Emoji = require('emoji');
+const Emojik = require('emojik');
 
 // From path
-console.log(Emoji.goblin.icon());
+console.log(Emojik.goblin.icon());
 
 // Or from get() function
-console.log(Emoji.get('goblin'));
+console.log(Emojik.get('goblin'));
 
 // result: 👺
 ```
@@ -29,13 +29,13 @@ console.log(Emoji.get('goblin'));
 ### ES6
 ```javascript
 // Import module
-import Emoji from 'emoji';
+import Emojik from 'emojik';
 
 // From path
-console.log(Emoji.goblin.icon());
+console.log(Emojik.goblin.icon());
 
 // Or from get() function
-console.log(Emoji.get('goblin'));
+console.log(Emojik.get('goblin'));
 
 // result: 👺
 ```
@@ -44,10 +44,10 @@ console.log(Emoji.get('goblin'));
 ### How use smiles with need colors?
 ```javascript
 // From path
-console.log(Emoji.ok_hand.icon('light'));
+console.log(Emojik.ok_hand.icon('light'));
 
 // Or from get() function
-console.log(Emoji.get('ok hand', 'light'));
+console.log(Emojik.get('ok hand', 'light'));
 
 // result: 👌🏻
 ```
@@ -59,13 +59,13 @@ console.log(Emoji.get('ok hand', 'light'));
 // You can paste names as you wish
 
 // So
-console.log(Emoji.get('flexed biceps'));
+console.log(Emojik.get('flexed biceps'));
 
 // Or so..
-console.log(Emoji.get('FLEXED_BICEPS'));
+console.log(Emojik.get('FLEXED_BICEPS'));
 
 // Or so....
-console.log(Emoji.get(':::::::flexed+biceps::::::::'));
+console.log(Emojik.get(':::::::flexed+biceps::::::::'));
 
 // result will be the same
 // 💪
