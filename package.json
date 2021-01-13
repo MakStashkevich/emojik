@@ -1,6 +1,6 @@
 {
   "name": "emojik",
-  "version": "1.0.1 beta",
+  "version": "1.0.1",
   "description": "Emoji pack to JavaScript",
   "main": "lib/emojik.js",
   "types": "lib/index.d.ts",
