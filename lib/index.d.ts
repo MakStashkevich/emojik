@@ -2,7 +2,7 @@
 declare module 'emojik' {
 	type SkinToneType = (string | string[]);
 
-	export class Emoji {
+	export class Emojik {
 		get (name: string): object;
 		icon (name: string, skinTone: SkinToneType): string;
 		unicode (name: string, skinTone: SkinToneType): string[];
@@ -10,5 +10,5 @@ declare module 'emojik' {
 		text (str: string, patternName: RegExp, patternTone: RegExp): string;
 	}
 
-	export default Emoji;
+	export default Emojik;
 }
